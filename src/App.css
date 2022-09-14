@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.heading{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  /* margin: 20px ; */
+  margin-bottom: 10px;
+
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+
+}
+.jc-center{
+  justify-content: center;
+}
+.square{
+  min-width: 170px;
+  min-height: 170px;
+  font-size: 64px;
+  text-align: center;
+  color: #61dafb;
+  font-weight: bolder;
+  padding: 30px; 
+  
+
+}
+.square:hover{
+  cursor: pointer;
+  color: #17c2d8fd;
+}
+.border-bottom-right{
+  border-right: 15px solid #1cdbf5;
+  border-bottom: 15px solid #1cdbf5;
+}
+.border-bottom{
+  
+  border-bottom: 15px solid #1cdbf5;
+}
+.border-right{
+
+  border-right: 15px solid #1cdbf5;
+}
